@@ -1,2 +1,2 @@
-"Amour Template",
-"Amour Template2"
+"""Amour Template",
+"Amour Template2"""
