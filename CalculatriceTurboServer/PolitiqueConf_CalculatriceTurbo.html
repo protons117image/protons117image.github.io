@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Politique de Confidentialité - Calculatrice Turbo</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+<style>
+  body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin:0; padding:0; background:#f4f7f9; color:#333; }
+  .container { max-width: 900px; margin: 30px auto; padding: 30px; background:#fff; box-shadow:0 4px 15px rgba(0,0,0,0.1); border-radius:12px;}
+  h1 { color:#1a73e8; text-align:center; margin-bottom: 5px; }
+  .last-update { text-align: center; color: #666; font-size: 0.9em; margin-bottom: 30px; }
+  .accordion { background-color: #f8f9fa; color: #333; cursor: pointer; padding: 18px; width: 100%; border: 1px solid #eee; text-align: left; outline: none; font-size: 1.1em; transition: 0.3s; border-radius:8px; margin-top:10px; display: flex; align-items: center;}
+  .accordion:hover { background-color: #e7f0fe; border-color: #1a73e8; }
+  .active { background-color: #e7f0fe; border-color: #1a73e8; border-bottom-left-radius: 0; border-bottom-right-radius: 0; }
+  .accordion i { margin-right: 15px; color:#1a73e8; width: 20px; text-align: center; }
+  .panel { padding: 15px 20px; display: none; background-color: white; overflow: hidden; margin-bottom:10px; line-height:1.7; border: 1px solid #eee; border-top: none; border-left:4px solid #1a73e8; border-bottom-left-radius: 8px; border-bottom-right-radius: 8px;}
+  ul { padding-left: 20px; }
+  li { margin-bottom: 8px; }
+  a { color:#1a73e8; text-decoration:none; font-weight: bold; }
+  a:hover { text-decoration:underline; }
+  footer { text-align:center; font-size:0.85em; margin-top:40px; padding-top:20px; border-top:1px solid #eee; color: #777; }
+  strong { color: #222; }
+</style>
+</head>
+<body>
+
+<div class="container">
+  <h1>Politique de Confidentialité</h1>
+  <p class="last-update"><strong>Application :</strong> Calculatrice Turbo | <strong>Mise à jour :</strong> 8 mars 2026</p>
+
+  <button class="accordion"><i class="fas fa-info-circle"></i> Introduction</button>
+  <div class="panel">
+    <p>Cette politique décrit comment l'application <strong>Calculatrice Turbo</strong> gère vos données. Nous nous engageons à limiter la collecte de données au strict nécessaire pour le fonctionnement de l'application et la diffusion de publicités permettant de maintenir la gratuité du service.</p>
+  </div>
+
+  <button class="accordion"><i class="fas fa-database"></i> Collecte des données par AdMob</button>
+  <div class="panel">
+    <p>Pour diffuser des publicités (notamment les publicités récompensées pour débloquer le calculateur d’âge) et une banniere publicitaire, nous intégrons le SDK [Google Mobile Ads (AdMob)](https://policies.google.com). Ce dernier collecte automatiquement :</p>
+    <ul>
+      <li><strong>Identifiants publicitaires :</strong> Advertising ID (Android) ou IDFA (iOS) pour la personnalisation des annonces.</li>
+      <li><strong>Identifiants d'appareil :</strong> ID de l'ensemble d'applications (App set ID) pour lutter contre la fraude.</li>
+      <li><strong>Localisation approximative :</strong> Déduite de votre adresse IP pour proposer des publicités pertinentes dans votre région/pays.</li>
+      <li><strong>Données de performance :</strong> Logs de plantage et temps de réponse pour assurer la stabilité technique du SDK.</li>
+    </ul>
+  </div>
+
+  <button class="accordion"><i class="fas fa-hdd"></i> Stockage local (Offline)</button>
+  <div class="panel">
+    <p>L’application fonctionne principalement en mode local :</p>
+    <ul>
+      <li><strong>Historique :</strong> Vos calculs et paramètres sont stockés dans une base de données SQLite **uniquement sur votre appareil**.</li>
+      <li><strong>Confidentialité :</strong> Ces données ne quittent jamais votre téléphone et ne sont transmises à aucun serveur externe.</li>
+      <li><strong>Contrôle :</strong> Vous pouvez vider cet historique à tout moment via les paramètres de l'application.</li>
+    </ul>
+  </div>
+
+  <button class="accordion"><i class="fas fa-bullhorn"></i> Publicités Récompensées</button>
+  <div class="panel">
+    <p>Certaines fonctionnalités avancées (ex: Calculateur d'âge) peuvent être débloquées temporairement après le visionnage d'une publicité. 
+    L'interaction avec ces publicités est traitée par Google. Vous pouvez désactiver la personnalisation des annonces dans les <a href="https://adssettings.google.com" target="_blank">https://adssettings.google.com - Paramètres Google</a> de votre téléphone.</p>
+  </div>
+
+<button class="accordion"><i class="fas fa-ad"></i> Affichage Publicitaire</button>
+<div class="panel">
+  <p>Notre application affiche une bannière publicitaire. Ces annonces sont diffusées par Google AdMob. 
+  Google peut utiliser des identifiants publicitaires pour personnaliser les annonces que vous voyez. 
+  Vous pouvez gérer vos préférences ou désactiver la personnalisation dans les 
+  <a href="https://adssettings.google.com" target="_blank">Paramètres Google</a> de votre appareil.</p>
+</div>
+
+
+  <button class="accordion"><i class="fas fa-lock"></i> Sécurité et Transfert</button>
+  <div class="panel">
+    <p>Bien que nous ne collections pas de données personnelles directement, les données techniques traitées par AdMob sont transmises via le protocole sécurisé <strong>HTTPS</strong>. Le stockage local SQLite bénéficie des protections standards du système d'exploitation Android.</p>
+  </div>
+
+  <button class="accordion"><i class="fas fa-user-shield"></i> Droits des utilisateurs (RGPD)</button>
+  <div class="panel">
+    <p>Conformément au RGPD et aux politiques de protection de la vie privée :</p>
+    <ul>
+      <li><strong>Droit de suppression :</strong> Désinstallez l'application pour supprimer instantanément toutes les données locales.</li>
+      <li><strong>Réinitialisation publicitaire :</strong> Vous pouvez réinitialiser votre Advertising ID dans <em>Paramètres > Google > Annonces</em>.</li>
+      <li><strong>Accès :</strong> Vos données de calcul sont visibles et modifiables directement dans l'interface de la calculatrice.</li>
+    </ul>
+  </div>
+
+  <button class="accordion"><i class="fas fa-envelope"></i> Contact</button>
+  <div class="panel">
+    <p>Pour toute question relative à vos données : <a href="mailto:eliscarleoded174@gmail.com">eliscarleoded174@gmail.com</a></p>
+  </div>
+
+  <footer>© 2026 – Calculatrice Turbo. Tous droits réservés.</footer>
+</div>
+
+<script>
+var acc = document.getElementsByClassName("accordion");
+for (var i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.display === "block") {
+      panel.style.display = "none";
+    } else {
+      panel.style.display = "block";
+    }
+  });
+}
+</script>
+
+</body>
+</html>

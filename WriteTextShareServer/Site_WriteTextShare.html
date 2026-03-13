@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="author" content="Ing Eliscar Owen Edwine"/>
+  <title>Write Text Share</title>
+  <style>
+    /* Reset & Base */
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: Arial, sans-serif; line-height: 1.6; color: #333; }
+    a { text-decoration: none; color: inherit; }
+
+    /* Container */
+    .container { padding: 0 1rem; max-width: 1100px; margin: auto; }
+
+    header {
+      background: #4a90e2;
+      color: white;
+      padding: 2rem 0;
+      text-align: center;
+    }
+    header h1 { font-size: 2.5rem; margin-bottom: .5rem; }
+    header p { font-size: 1.2rem; }
+
+    /* Hero / CTA */
+    .cta-buttons { margin-top: 1.2rem; }
+    .btn {
+      display: inline-block;
+      background: #fff;
+      color: #4a90e2;
+      padding: .7rem 1.4rem;
+      font-size: 1rem;
+      border-radius: 5px;
+      margin: 0 .5rem;
+      font-weight: bold;
+      transition: .3s;
+    }
+    .btn:hover { background: #e1e1e1; }
+
+    /* Features */
+    .features { display: grid; grid-template-columns: 1fr; gap: 1.6rem; margin: 2rem 0; }
+    .feature-card {
+      background: #f7f7f7;
+      padding: 1.4rem;
+      border-radius: 8px;
+      text-align: center;
+    }
+    .feature-card h3 { margin-bottom: .6rem; color: #4a90e2; }
+
+    /* Section Image */
+    .screenshot {
+      text-align: center;
+      margin: 2rem 0;
+    }
+    .screenshot img { max-width: 100%; height: auto; border-radius: 10px; }
+
+    /* Footer */
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background: #2c2c2c;
+      color: #fff;
+      margin-top: 3rem;
+    }
+
+    /* Responsive layout */
+    @media(min-width: 768px) {
+      .features { grid-template-columns: repeat(2, 1fr); }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header + Hero -->
+  <header>
+    <h1>Write Text Share</h1>
+    <p>L’application simple pour écrire du texte et le partager rapidement sur Android</p>
+    <div class="cta-buttons">
+      <a href="https://play.google.com/store/apps/details?id=com.protons117.writetextshare" class="btn">Mettre À Jour</a>
+      <a href="https://protons117image.github.io/writetextshare.html" class="btn">En savoir plus</a>
+    </div>
+  </header>
+
+  <div class="container">
+
+    <!-- Fonctionnalités -->
+    <section class="features">
+      <div class="feature-card">
+        <h3>✍️ Écrire rapidement</h3>
+        <p>L’application permet d’écrire du texte instantanément dès l’ouverture.</p>
+      </div>
+
+      <div class="feature-card">
+        <h3>📤 Partage facile</h3>
+        <p>Partage ton texte vers d’autres apps ou réseaux en un tap — intuitif et rapide.</p>
+      </div>
+
+    </section>
+
+    <!-- À propos -->
+    <section>
+      <h2 style="text-align:center; margin: 1.6rem 0; color:#4a90e2;">À propos de Write Text Share</h2>
+      <p>Write Text Share est une application Android conçue pour permettre aux utilisateurs d’écrire, modifier, consulter et partager du texte sans complexité.</p>
+    </section>
+
+    <!-- Téléchargement / Call to Action -->
+    <section id="download" style="text-align:center; margin: 2rem 0;">
+      <a href="https://play.google.com/store/apps/details?id=com.protons117.writetextshare" class="btn">Télécharger sur Google Play</a>
+    </section>
+
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2026 Write Text Share • Tous droits réservés</p>
+  </footer>
+
+</body>
+</html>
