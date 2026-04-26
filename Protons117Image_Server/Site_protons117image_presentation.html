@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Protons117 Image</title>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      background: #ffffff;
+      color: #111;
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 40px;
+      border-bottom: 1px solid #eee;
+      flex-wrap: wrap;
+    }
+
+    .logo {
+      font-family: 'Orbitron', sans-serif;
+      font-size: 22px;
+      font-weight: 600;
+    }
+
+    nav {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 15px;
+      margin-top: 10px;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #333;
+      font-weight: 500;
+    }
+
+    .hero {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 60px 40px;
+      gap: 40px;
+      flex-wrap: wrap;
+    }
+
+    .hero-text {
+      flex: 1;
+      min-width: 280px;
+    }
+
+    .hero-text h1 {
+      font-size: 40px;
+      margin-bottom: 20px;
+      font-family: 'Orbitron', sans-serif;
+    }
+
+    .hero-text p {
+      font-size: 16px;
+      margin-bottom: 25px;
+      color: #555;
+    }
+
+    .btn {
+      padding: 12px 25px;
+      border: none;
+      background: #007BFF;
+      color: white;
+      border-radius: 30px;
+      cursor: pointer;
+    }
+
+    .hero-image {
+      flex: 1;
+      min-width: 250px;
+      height: 200px;
+      background: linear-gradient(135deg, #007BFF, #00d4ff);
+      border-radius: 20px;
+    }
+
+    .features {
+      padding: 60px 20px;
+      text-align: center;
+    }
+
+    .features h2 {
+      font-size: 30px;
+      margin-bottom: 30px;
+    }
+
+    .feature-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+    }
+
+    .feature-card {
+      padding: 20px;
+      border-radius: 20px;
+      background: #f9f9f9;
+    }
+
+    .cta {
+      text-align: center;
+      padding: 60px 20px;
+    }
+
+    .cta h2 {
+      font-size: 28px;
+      margin-bottom: 20px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      border-top: 1px solid #eee;
+      font-size: 14px;
+      color: #777;
+    }
+
+    /* RESPONSIVE */
+    @media (max-width: 768px) {
+      header { padding: 20px; }
+
+      .hero { padding: 40px 20px; }
+
+      .hero-text h1 { font-size: 28px; }
+
+      .hero-image { height: 180px; }
+    }
+
+    @media (max-width: 480px) {
+      .hero-text h1 { font-size: 24px; }
+
+      .btn { width: 100%; }
+
+      nav { justify-content: center; }
+    }
+
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="logo">Protons117 Image</div>
+  <nav>
+    <a href="https://play.google.com/store/apps/details?id=com.protons117.protons117image">Télécharger</a> 
+  </nav>
+</header>
+
+<section class="hero">
+  <div class="hero-text">
+    <h1>Le futur du partage d’images</h1>
+    <p>Découvrez, partagez et interagissez avec des images et vidéos dans une expérience sociale moderne.</p>
+     <a href="https://play.google.com/store/apps/details?id=com.protons117.protons117image">
+    <button class="btn">Commencer</button>
+  </a>
+  </div>
+  <div class="hero-image"> <img src="ic_launcher_blanc.png" alt="logo" width="30%"/></div>
+</section>
+
+<section class="features" id="features">
+  <h2>Fonctionnalités</h2>
+  <div class="feature-grid">
+    <div class="feature-card">
+      <h3>📸 Explorer</h3>
+      <p>Images et vidéos tendances.</p>
+    </div>
+    <div class="feature-card">
+      <h3>❤️ Interagir</h3>
+      <p>Likes, commentaires, partages.</p>
+    </div>
+    <div class="feature-card">
+      <h3>🚀 Rapide</h3>
+      <p>Chargement optimisé.</p>
+    </div>
+    <div class="feature-card">
+      <h3>🔒 Sécurisé</h3>
+      <p>Protection des données.</p>
+    </div>
+  </div>
+</section>
+
+<section class="cta">
+  <h2>Rejoignez Protons117 Image</h2>
+   <a href="https://play.google.com/store/apps/details?id=com.protons117.protons117image">
+  <button class="btn">Télécharger</button>
+  </a>
+</section>
+
+<footer>
+ <p>&copy; 2026 Ing Eliscar Owen Loammy L. E. / Protons117 Image • Tous droits réservés</p>
+</footer>
+
+</body>
+</html>
